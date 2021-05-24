@@ -8,40 +8,35 @@
             font-family: Roboto;
             background: #F3F3F3;
             margin: 0px;
-        }
-        u {
-            font-size: 20px;
-            font-weight: 400;
-            color: #FF43AF;
-            line-height: 24px;
-            line-height:32px;
+            border: 6px groove #d3d3d3;
         }
 
-        span {
-            font-size: 32px;
-            font-weight: 500;
-            color: #000000;
-            letter-spacing: 2px;
-            line-height:32px;
-        }
-
-
-
-        .Header {
-            width: 100%;
-            background: #2EABFE;
+        .B1 {
+            background: #353030e5;
             margin: 0px;
-            padding: 0px;
+            width: 100%;
+            height: 40%;
+            box-sizing:border-box;
+            color: #ffffff;
+            font-size: 1.4em;
+            position: relative;
+            display:grid;
+            grid-template-rows: repeat(1, 1fr );
+            grid-template-columns: repeat(1 ,auto);
+        }
+        .Header {
+            width: 72%;
+            background: #2EABFE;
             box-sizing: border-box;
             color: #FFFFFF;
-            font-size: 18px;
-
+            font-size: 0.8em;
+            align-self:end;
+            justify-self:center;
         }
-
         .Header li {
             list-style-type: none;
             display: inline-block;
-            padding: 30px 40px 30px 40px;
+            padding: 1em 1.4em 1em 1.4em;
             margin: 0px;
         }
 
@@ -49,251 +44,267 @@
             background: #138CDC;
             list-style-type: none;
             display: inline-block;
-            padding: 30px 40px 30px 40px;
+            padding: 1em 1.4em 1em 1.4em;
             margin: 0px;
         }
 
-        .container {
-            width: 90%;
-            margin: 0 5% 0 5%;
-            background: #F3F3F3;
-            display: grid;
-            grid-template-rows: repeat(3,1fr);
-            grid-template-columns: repeat(3,1fr);
-            grid-column-gap:26px;
-            grid-row-gap:24px;
-
-
-        }
-
-
-
-        .containeritem1 {
-        
+        .B2 {
+            background: #bbc1c5;
+            margin: 0px;
+            width: 100%;
             box-sizing: border-box;
-            padding-top:70px;
-            text-align-last: left;
-            grid-column-start:1;
-            grid-column-end:3;
-            grid-row-start:1;
-            grid-row-end:2;
-
-
-        }
-        .containeritem1 p {
-            font-size: 20px;
-            font-weight: 400;
-            color: #000000;
-            line-height:32px;
-
-        }
-
-        .containeritem2 {
-           box-sizing: border-box;
-            padding-top:70px;
-            text-align-last: left;
-            grid-column-start:1;
-            grid-column-end:3;
-            grid-row-start:2;
-            grid-row-end:4;
-
-        }
-
-        .containeritem2 a {
-            font-size: 20px;
-            font-weight: 400;
-            color: #000000;
-            padding: 40px 0px 20px 0px;
-            line-height:32px;
-
-        }
-        .containeritem2 ul li {
-            font-size: 20px;
-            font-weight: 400;
-            color: #000000;
-            padding: 5px 0px 5px 30px;
-            list-style-image: url ("web development projects/Project 1/Ellipse.png");
-            line-height:32px;
-        }
-        .containeritem3 {
-            box-sizing: border-box;
-            padding-top:70px;
-            text-align-last: left;
-            grid-column-start:3;
-            grid-column-end:4;
-            grid-row-start:1;
-            grid-row-end:2;
-        }
-        .containeritem3 a+p {
-            font-size: 20px;
-            font-weight: 400;
-            color: #000000;
-            padding: 20px 0px 20px 0px;
-            line-height:32px;
-        }
-
-        .containeritem4 {
-            box-sizing: border-box;
-            padding-top:60px;
-            text-align-last: left;
-            grid-column-start:3;
-            grid-column-end:4;
-            grid-row-start:2;
-            grid-row-end:3;
-
-
-        }
-        .containeritem4 a+p{
-            font-size: 20px;
-            font-weight: 400;
-            color: #000000;
-            padding: 20px 0px 20px 0px;
-            line-height:32px;
+            display:grid;
+            grid-template-rows: repeat(1, 1fr );
+            grid-template-columns: repeat(1 ,auto);
+            
             
         }
 
-
-        .containeritem5 {
-            box-sizing: border-box;
-            text-align-last: left;
-            list-style-image:url("web development projects/Project 1/clip.svg");
-            text-align-last: left;
-            grid-column-start:3;
-            grid-column-end:4;
-            grid-row-start:3;
-            grid-row-end:4;
-
-
+        u {
+            font-size: 0.8em;
+            font-weight: 400;
+            color: #FF43AF;
+            line-height: 24px;
+            line-height: 32px;
         }
 
-        .containeritem6 {
-             font-size:20px;
-            box-sizing: border-box;
-            text-align-last: left;
-            grid-column-start:3;
-            grid-column-end:4;
-            grid-row-start:4;
-            grid-row-end:5;
+        span {
+            font-size: 2.2em;
+            font-weight: 500;
+            color: #000000;
+            letter-spacing: 2px;
+            line-height: 32px;
+        } 
+        .container {
+            width: 70%;
+            margin: 0 5% 0 5%;
+            background: #F3F3F3;
+            display: grid;
+            grid-template-rows: repeat(0, auto);
+            grid-template-columns: repeat(2, auto);
+            grid-column-gap: 2em;
+            grid-row-gap: 2em;
+            padding: 0.8em;
+            align-self:center;
+            justify-self:center;
+           
 
         }
-        .containeritem6 div{
+        .containeritem1 {
+
+            box-sizing: border-box;
+            padding-top: 10%;
+            text-align-last: left;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+        }
+        .containeritem1 p {
+            font-size: 1.3em;
+            font-weight: 400;
+            color: #000000;
+            line-height: 32px;
+
+        }
+        .containeritem2 {
+            box-sizing: border-box;
+            padding-top: 10%;
+            text-align-last: left;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+
+             list-style-image: url ("./Ellipise.png");
+
+        }
+        .containeritem2 a {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            padding: 20% 0% 10% 0%;
+            line-height: 32px;
+        }
+        .containeritem2 ul li {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            line-height: 32px;
+        }
+        .containeritem3 {
+            box-sizing: border-box;
+            padding-top: 10%;
+            text-align-last: left;
+            
+        }
+        .containeritem3 a+p {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #000000;
+            padding: 10% 0% 10% 0%;
+            line-height: 32px;
+        }
+        .containeritem4  {
+            box-sizing: border-box;
+            text-align-last: left;
+            list-style-image: url("./clip.svg");
+            text-align-last: left;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            
+
+           
+
+        }
+        .containeritem5  {
+            font-size: 1.4em;
+            box-sizing: border-box;
+            text-align-last: left;
+            grid-column-start: 2;
+            grid-column-end: 3;
+               
+        }
+        .containeritem5 div {
             width: 60%;
             border: 2px solid #707070;
             border-radius: 8px;
             padding: 6px 0px 4px 5px;
             margin: 6px;
-            line-height:32px;
+            line-height: 32px;
             box-shadow: -3px 3px 6px 0.5px #676767;
-            opacity:0.5;
+            opacity: 0.5;
         }
-        .Footer{
-            width: 100%;
+        /*.containeritem5 div+img{
+            display: inline;
+        }*/
+        .Footer {
+            width: 72%;
             background: #2EABFE;
             margin: 0px;
-            padding: 20px 0px 20px 0px;
+            padding: 0.8em 0em 0.8em 0em;
             box-sizing: border-box;
             color: #FFFFFF;
-            font-size: 22px;
-            font-weight:500;
-            text-align:center;
+            font-size: 1.4em;
+            font-weight: 400;
+            text-align: center;
+            align-self:center;
+            justify-self:center;
+            
+
         }
     </style>
 </head>
 
 <body>
-    <div class="Header">
-        <ul>
-            <li>HOME</li>
-            <li>EXAMPLES</li>
-            <li>A PAGE</li>
-            <li>ANOTHER PAGE</li>
-            <li>CONTACT US</li>
-        </ul>
 
-    </div>
-    <div class="container">
-        <div class="containeritem1">
+    <div class="B1">
+        <p style=" color:#ffffff; font-weight:400; font-size:1.8em; justify-self:center;align-self:top;">textured
+        <a style=" color:#2EABFE;font-weight:400; justify-self:center;align-self:top
+            ">blue</a></p>
 
-             <span>Welcome to the textured_blue template</span>
-            <p>
-                It is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. <u>The point of using
-                    Lorem Ipsum</u> is that it has a more-or-less normal distribution of letters, as opposed to using
-                'Content here, content here', making it look like readable English. Many desktop publishing packages
-                and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
-                will uncover many web sites still in their infancy
-            </p>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in
-                some form,
-            </p>
-            <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have <u>suffered</u>
-            </p>
-            <p>
-                There are many variations of passages of Lorem Ipsum <u>available</u>, but the majority have suffered
-                alteration in some form,
-            </p>
-        </div>
-
-
-
-
-        <div class="containeritem3">
-             <span>Latest News</span>
-            <br>
-            <a style="color:#2EABFE; line-height: 28px;">New website Launches</a>
-            <br>
-            <a>August,2021</a>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                <u>Richard Read More.</u>
-            </p> 
-        </div>
-        <div class="containeritem2">
-           <span style="color: #2EABFE;">Browser Compatibility</span>
-            <br>
-            <br>
-            <a>There are many variations of passages of </a>
+        <p style="font-size:0.8em; margin:0px;  justify-self:center;align-self:top;">lorem ipsuem</p>
+        <div class="Header">
             <ul>
-                <li>There are many variations of passages of </li>
-                <li>There are many variations of passages of </li>
-                <li>There are many variations of passages of </li>
-                <li>There are many variations of passages of </li>
-            </ul> 
-        </div>
-        <div class="containeritem4">
-             <span>Latest News</span>
-            <br>
-            <a style="color:#2EABFE;line-height: 28px;">New website Launches</a>
-            <br>
-            <a>August,2021</a>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                <u>Richard Read More.</u>
-            </p>
-        </div>
-        <div class="containeritem5">
-            <span>Useful links</span>
-            <br>
-            <ul>
-                <li><u>Link 1</u></li>
-                <li><u>Link 2</u></li>
-                <li><u>Link 3</u></li>
-                <li><u>Link 4</u></li>
-            </ul> 
-        </div>
-        <div class="containeritem6">
-            <a style="color:#000000; font-size:20px; font-weight:600;">Search</a>
-            <br>
-            <div>Search</div>
-            <img src= "web development project/ project 1 / search bar.png" width="36.95 px"> 
+                <li>HOME</li>
+                <li>EXAMPLES</li>
+                <li>A PAGE</li>
+                <li>ANOTHER PAGE</li>
+                <li>CONTACT US</li>
+            </ul>
+
         </div>
     </div>
-    <div class="Footer">
-        <p>Copyright Texted Blue_Template | HTML | CSS | Design.com</p>
+    <div class="B2">
+        <div class="container">
+            <div class="containeritem1">
+
+                <span>Welcome to the textured_blue template</span>
+                <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. <u>The point of using
+                        Lorem Ipsum</u> is that it has a more-or-less normal distribution of letters, as opposed to
+                    using
+                    'Content here, content here', making it look like readable English. Many desktop publishing packages
+                    and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+                    will uncover many web sites still in their infancy
+                </p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in
+                    some form,
+                </p>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have
+                    <u>suffered</u>
+                </p>
+                <p>
+                    There are many variations of passages of Lorem Ipsum <u>available</u>, but the majority have
+                    suffered
+                    alteration in some form,
+                </p>
+            </div>
+            <div class="containeritem2">
+                <span style="color: #2EABFE;">Browser Compatibility</span>
+                <br>
+                <br>
+                <a>There are many variations of passages of </a>
+                <ul>
+                    <li>There are many variations of passages of </li>
+                    <li>There are many variations of passages of </li>
+                    <li>There are many variations of passages of </li>
+                    <li>There are many variations of passages of </li>
+                </ul>
+            </div>
+            <div class="containeritem3">
+                <div>
+                <span>Latest News</span>
+                <br>
+                <a style="color:#2EABFE; line-height: 28px;">New website Launches</a>
+                <br>
+                <a>August,2021</a>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    <u>Richard Read More.</u>
+                </p>
+            </div>
+            <div>
+                <span>Latest News</span>
+                <br>
+                <a style="color:#2EABFE;line-height: 28px;">New website Launches</a>
+                <br>
+                <a>August,2021</a>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    <u>Richard Read More.</u>
+                </p>
+            </div>
+            </div>
+            <div class="containeritem4">
+                <span>Useful links</span>
+                <br>
+                <ul style="font-size: 1.2em; font-weight:500;">
+                    <li><u>Link 1</u></li>
+                    <li><u>Link 2</u></li>
+                    <li><u>Link 3</u></li>
+                    <li><u>Link 4</u></li>
+                </ul>
+            </div>
+            <div class="containeritem5">
+                <a style="color:#000000; font-size:20px; font-weight:600;">Search</a>
+                <br>
+                <div>Search</div>
+                <img src="./search bar.png " width="34px"  >
+            </div>
+        </div>
+        <div class="Footer">
+            <p>Copyright Texted Blue_Template | HTML | CSS | Design.com</p>
 
 
+        </div>
     </div>
 
 </body>
