@@ -8,7 +8,7 @@
             font-family: Roboto;
             background: #F3F3F3;
             margin: 0px;
-            border: 6px groove #d3d3d3;
+            border: 0.375em groove #d3d3d3;
         }
 
         .B1 {
@@ -16,35 +16,42 @@
             margin: 0px;
             width: 100%;
             height: 40%;
-            box-sizing:border-box;
+            box-sizing: border-box;
             color: #ffffff;
             font-size: 1.4em;
             position: relative;
-            display:grid;
-            grid-template-rows: repeat(1, 1fr );
-            grid-template-columns: repeat(1 ,auto);
+            display: grid;
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(1, auto);
         }
+
         .Header {
-            width: 72%;
+            width: 70%;
             background: #2EABFE;
             box-sizing: border-box;
             color: #FFFFFF;
             font-size: 0.8em;
-            align-self:end;
-            justify-self:center;
+            align-self: end;
+            justify-self: center;
         }
+
+        .Header ul {
+            padding: 0em;
+            margin: 0em;
+        }
+
         .Header li {
             list-style-type: none;
             display: inline-block;
-            padding: 1em 1.4em 1em 1.4em;
-            margin: 0px;
+            padding: 1.2em 1.4em 1.2em 1.4em;
+
         }
 
         .Header li:hover {
             background: #138CDC;
             list-style-type: none;
             display: inline-block;
-            padding: 1em 1.4em 1em 1.4em;
+            padding: 1.2em 1.4em 1.2em 1.4em;
             margin: 0px;
         }
 
@@ -53,43 +60,46 @@
             margin: 0px;
             width: 100%;
             box-sizing: border-box;
-            display:grid;
-            grid-template-rows: repeat(1, 1fr );
-            grid-template-columns: repeat(1 ,auto);
-            
-            
+            display: grid;
+            grid-template-rows: repeat(1, 1fr);
+            grid-template-columns: repeat(1, auto);
+
+
         }
 
         u {
             font-size: 0.8em;
-            font-weight: 400;
+            font-weight: 500;
             color: #FF43AF;
-            line-height: 24px;
-            line-height: 32px;
+            line-height: 1em;
+
         }
 
         span {
             font-size: 2.2em;
             font-weight: 500;
             color: #000000;
-            letter-spacing: 2px;
-            line-height: 32px;
-        } 
+            letter-spacing: 0.125em;
+            line-height: 1em;
+        }
+
         .container {
             width: 70%;
             margin: 0 5% 0 5%;
             background: #F3F3F3;
+            box-sizing: border-box;
             display: grid;
             grid-template-rows: repeat(0, auto);
             grid-template-columns: repeat(2, auto);
             grid-column-gap: 2em;
             grid-row-gap: 2em;
             padding: 0.8em;
-            align-self:center;
-            justify-self:center;
-           
+            align-self: center;
+            justify-self: center;
+
 
         }
+
         .containeritem1 {
 
             box-sizing: border-box;
@@ -101,52 +111,58 @@
             grid-row-end: 2;
 
         }
+
         .containeritem1 p {
             font-size: 1.3em;
             font-weight: 400;
             color: #000000;
-            line-height: 32px;
+            line-height: 1.5em;
 
         }
+
         .containeritem2 {
             box-sizing: border-box;
-            padding-top: 10%;
+            padding-top: 20%;
             text-align-last: left;
             grid-column-start: 1;
             grid-column-end: 2;
             grid-row-start: 2;
             grid-row-end: 3;
-
-             list-style-image: url ("./Ellipise.png");
+            list-style-image: url ("./Ellipise.png");
 
         }
+
         .containeritem2 a {
             font-size: 1.2em;
             font-weight: 400;
             color: #000000;
             padding: 20% 0% 10% 0%;
-            line-height: 32px;
+            line-height: 1.5em;
         }
+
         .containeritem2 ul li {
             font-size: 1.2em;
             font-weight: 400;
             color: #000000;
-            line-height: 32px;
+            line-height: 1.5em;
         }
+
         .containeritem3 {
             box-sizing: border-box;
-            padding-top: 10%;
+            padding-top: 15%;
             text-align-last: left;
-            
+
         }
+
         .containeritem3 a+p {
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: 400;
             color: #000000;
-            padding: 10% 0% 10% 0%;
-            line-height: 32px;
+            padding: 5% 0% 10% 0%;
+            line-height: 1.5em;
         }
-        .containeritem4  {
+
+        .containeritem4 {
             box-sizing: border-box;
             text-align-last: left;
             list-style-image: url("./clip.svg");
@@ -155,34 +171,44 @@
             grid-column-end: 3;
             grid-row-start: 2;
             grid-row-end: 3;
-            
+            padding-top: 25%;
 
-           
+
+
 
         }
-        .containeritem5  {
+
+        .containeritem5 {
             font-size: 1.4em;
             box-sizing: border-box;
             text-align-last: left;
             grid-column-start: 2;
             grid-column-end: 3;
-               
+
         }
+
         .containeritem5 div {
             width: 60%;
-            border: 2px solid #707070;
-            border-radius: 8px;
-            padding: 6px 0px 4px 5px;
-            margin: 6px;
-            line-height: 32px;
-            box-shadow: -3px 3px 6px 0.5px #676767;
+            line-height: 1.5em;
+        }
+
+       .searchterm {
+            width: 70%;
+            color: #181818;
+            border: 0.125em solid #0f0f0f;
+            border-radius: 0.5em;
+            padding: 0.375em 0em 0.375em 0.25em;
+            margin: 0.375em;
+            box-shadow: -0.1875em 0.1875em 0.375em 0.03125em #676767;
             opacity: 0.5;
         }
-        /*.containeritem5 div+img{
-            display: inline;
-        }*/
+
+        .searchterm {
+            color: #000000
+        } 
+
         .Footer {
-            width: 72%;
+            width: 70%;
             background: #2EABFE;
             margin: 0px;
             padding: 0.8em 0em 0.8em 0em;
@@ -191,11 +217,20 @@
             font-size: 1.4em;
             font-weight: 400;
             text-align: center;
-            align-self:center;
-            justify-self:center;
-            
-
+            align-self: center;
+            justify-self: center;
         }
+
+       /* .searchButton {
+            width: 1em;
+            height:1.2em;
+            border: 1px solid #00B4CC;
+            text-align: center;
+            color: rgb(24, 23, 23);
+            border-radius: 0em 0.375em 0.375em 0em;
+            cursor: pointer;
+            font-size: 1.2em;
+        } */
     </style>
 </head>
 
@@ -203,10 +238,11 @@
 
     <div class="B1">
         <p style=" color:#ffffff; font-weight:400; font-size:1.8em; justify-self:center;align-self:top;">textured
-        <a style=" color:#2EABFE;font-weight:400; justify-self:center;align-self:top
-            ">blue</a></p>
+            <a style=" color:#2EABFE;font-weight:400; margin:0em; justify-self:center;align-self:top
+            ">blue</a>
+        </p>
 
-        <p style="font-size:0.8em; margin:0px;  justify-self:center;align-self:top;">lorem ipsuem</p>
+        <p style="font-size:0.8em; margin:0em; padding:0em;  justify-self:center;align-self:top;">lorem ipsuem</p>
         <div class="Header">
             <ul>
                 <li>HOME</li>
@@ -261,32 +297,32 @@
             </div>
             <div class="containeritem3">
                 <div>
-                <span>Latest News</span>
-                <br>
-                <a style="color:#2EABFE; line-height: 28px;">New website Launches</a>
-                <br>
-                <a>August,2021</a>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                    <u>Richard Read More.</u>
-                </p>
-            </div>
-            <div>
-                <span>Latest News</span>
-                <br>
-                <a style="color:#2EABFE;line-height: 28px;">New website Launches</a>
-                <br>
-                <a>August,2021</a>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-                    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                    <u>Richard Read More.</u>
-                </p>
-            </div>
+                    <span>Latest News</span>
+                    <br>
+                    <a style="color:#2EABFE; line-height: 28px;">New website Launches</a>
+                    <br>
+                    <a>August,2021</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        <u>Richard Read More.</u>
+                    </p>
+                </div>
+                <div>
+                    <span>Latest News</span>
+                    <br>
+                    <a style="color:#2EABFE;line-height: 28px;">New website Launches</a>
+                    <br>
+                    <a>August,2021</a>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        <u>Richard Read More.</u>
+                    </p>
+                </div>
             </div>
             <div class="containeritem4">
                 <span>Useful links</span>
                 <br>
-                <ul style="font-size: 1.2em; font-weight:500;">
+                <ul style="font-size: 1.5em; font-weight:500; line-height: 1.5em;">
                     <li><u>Link 1</u></li>
                     <li><u>Link 2</u></li>
                     <li><u>Link 3</u></li>
@@ -296,8 +332,17 @@
             <div class="containeritem5">
                 <a style="color:#000000; font-size:20px; font-weight:600;">Search</a>
                 <br>
-                <div>Search</div>
-                <img src="./search bar.png " width="34px"  >
+                <div class="Search" style="display:inline;">
+                    <input type="text" placeholder="Search" class="searchterm">
+                   <!-- <button type="submit" class="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button> -->
+                    <img src="./search bar.png "  style="width:1.2em;
+                     margin-top: 0.3em; "> 
+                     
+
+                </div>
+                <!-- <img src="./search bar.png " width="34px"  > -->
             </div>
         </div>
         <div class="Footer">
