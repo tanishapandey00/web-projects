@@ -55,7 +55,7 @@ h3{
 .container1 {
     width: 90%;
     margin: 0% 5% 0% 5%;
-    background-size:contain;
+    background-size:cover;
     
    /* display:grid;
     grid-template-rows: repeat(auto-fit,auto);
@@ -102,6 +102,11 @@ i{
     left:36%;
     z-index:5;
  }
+.iteam1:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
 .iteam2 {
     width:430px;
     height:359.34px;
@@ -128,6 +133,11 @@ i{
     left:36%;
     z-index:5;
  }
+ .iteam2:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam3{
     width:430px;
     height:359.34px;
@@ -136,6 +146,7 @@ i{
     margin:1% 1.2% 1.5% 0%;
     float:left; 
  }
+
  .iteam4{
     width:316.02px;
     height:263.61px;
@@ -163,6 +174,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam4:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam5{
     width:316.02px;
     height:263.61px;
@@ -190,6 +206,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam5:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam6{
     width:316.02px;
     height:263.61px;
@@ -217,6 +238,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam6:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam7{
     width:316.02px;
     height:263.61px;
@@ -244,6 +270,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam7:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam8{
     width:316.02px;
     height:263.61px;
@@ -271,6 +302,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam8:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam9{
     width:316.02px;
     height:263.61px;
@@ -298,6 +334,11 @@ i{
     left:52%;
     z-index:5;
  }   
+ .iteam9:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam10{
     width:316.02px;
     height:263.61px;
@@ -325,6 +366,11 @@ i{
     left:52%;
     z-index:5;
  }
+ .iteam10:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
  .iteam11{
     width:316.02px;
     height:263.61px;
@@ -352,15 +398,11 @@ i{
     left:52%;
     z-index:5;
  }
- .iteam1+.iteam2+.iteam3+.iteam4+.iteam5+.iteam6+.iteam7+.iteam8+
- .iteam9+.iteam10+.iteam11+i:hover{
-    background-color:#2C2C2C;
-    opacity: 0.3;
-    color:#2EABFE;  
- }
- /*.iteam1 .iteam2 .iteam3 .iteam4 .iteam5 .iteam6 .iteam7 .iteam8
- .iteam9 .iteam10 .iteam11 i:hover{ 
- }*/
+ .iteam11:hover{
+   background-size:contain;
+   transition: all 7s ease 2s ;
+
+} 
 .container2 {
     width: 80%;
     margin: 0% 5% 0% 5%;
@@ -552,7 +594,7 @@ h3{
 .iteam1 {
    width:865px;
    height:722.91px;
-   background-size:contain;
+   background-size:cover;
    margin:0% 0.3% 0.6% 0%;
 }
 .iteam2 {
@@ -648,7 +690,7 @@ h3{
 .iteam1 {
    width:350px;
    height:291.72px;
-   background-size:contain;
+   background-size:cover;
    margin:0% 0.5% 0.8% 0%;
 }
 .iteam2 {
