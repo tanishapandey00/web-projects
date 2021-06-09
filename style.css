@@ -461,7 +461,7 @@ justify-self:center;
 .Footer img{
    width: 16em;
    margin:2% 0% 2% 0%;
-   justify-self:center;
+   justify-self: center;
 }
 @media screen and (max-width:1200px) and (min-width:990px) {
    .Header {
