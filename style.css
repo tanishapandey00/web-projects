@@ -9,6 +9,7 @@ body {
     height:100%;
     font-family: Roboto;
     background: #0F0F0F;
+   /* background:whitesmoke;*/
     color: #FFFFFF;
     list-style-type: none;
 }
@@ -49,18 +50,14 @@ h3{
     font-weight:600;
     letter-spacing:0.2px;
     display:block;
-    padding:1% 0% 0% 5%;
+    padding:1% 0% 0% 6%;
     cursor:default; 
 }
 .container1 {
-    width: 90%;
-    margin: 0% 5% 0% 5%;
-    background-size:cover;
-    
-   /* display:grid;
-    grid-template-rows: repeat(auto-fit,auto);
-    grid-template-columns: repeat(auto-fit,auto);
-    grid-gap:2%;*/
+    width: auto;
+    margin: 0% 6% 0% 6%;
+    background-size:fill;
+   
 }
 .container1 a{
     font-size:18px;
@@ -81,8 +78,8 @@ i{
     height:359.34px;
     background:url(./images/Ben10.png) no-repeat center; 
     position:relative;
-    margin:1% 1.2% 1.5% 0%;
-    float:left;
+    margin:1% 0.8% 1.2% 0%;
+float:left;
 }
  .iteam1  a{
     position:absolute;
@@ -103,16 +100,15 @@ i{
     z-index:5;
  }
 .iteam1:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
 .iteam2 {
     width:430px;
     height:359.34px;
     background:url(./images/OKKO.png) no-repeat center;
     position:relative;
-    margin:1% 1.2% 1.5% 0%;
+    margin:1% 0% 1.2% 0%;
     float:left;
 }
 .iteam2 a{
@@ -134,8 +130,8 @@ i{
     z-index:5;
  }
  .iteam2:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
+   background-size:cover;
+   transition: all 5s ease 2s ;
 
 } 
  .iteam3{
@@ -143,16 +139,16 @@ i{
     height:359.34px;
     background:#2C2C2C;
     position:relative;
-    margin:1% 1.2% 1.5% 0%;
-    float:left; 
+    margin:1% 0% 1.2% 0.8%;
+    float:left;
  }
 
  .iteam4{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/SevenUniverse.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0.8% 1.2% 0%;
     float:left;
 }
 .iteam4 a{
@@ -174,16 +170,17 @@ i{
     z-index:5;
  }
  .iteam4:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
+   background-size:cover;
+   transition: all 5s ease 2s ;
 
 } 
  .iteam5{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/powerpuffgirls.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0.8% 1.2% 0%;
+    
     float:left;
 }
 .iteam5 a{
@@ -205,16 +202,15 @@ i{
     z-index:5;
  }
  .iteam5:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam6{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/webarebears.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0.8% 1.2% 0%;
     float:left;
 }
 .iteam6 a{
@@ -236,16 +232,15 @@ i{
     z-index:5;
  }
  .iteam6:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam7{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/theregularshow.png) no-repeat center;
     position:relative;
-   margin:0% 1.5% 1.5% 0%;
+   margin:0% 0% 1.2% 0%;
    float:left;
 }
 .iteam7 a{
@@ -267,16 +262,15 @@ i{
     z-index:5;
  }
  .iteam7:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam8{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/adventuretime.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0.8% 1.2% 0%;
     float:left;
 }
 .iteam8 a{
@@ -298,16 +292,15 @@ i{
     z-index:5;
  }
  .iteam8:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam9{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/theamazingworld.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0.8% 1.2% 0%;
     float:left;
 }
 .iteam9 a{
@@ -329,17 +322,16 @@ i{
     z-index:5;
  }   
  .iteam9:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam10{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/appleandonion.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
-    float:left;
+    margin:0% 0.8% 1.2% 0%;
+   float:left;
 }
 .iteam10 a{
     position:absolute;
@@ -360,16 +352,15 @@ i{
     z-index:5;
  }
  .iteam10:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
  .iteam11{
-    width:316.02px;
-    height:263.61px;
+    width:320.18px;
+    height:266.8px;
     background:url(./images/maomao.png) no-repeat center;
     position:relative;
-    margin:0% 1.5% 1.5% 0%;
+    margin:0% 0% 1.2% 0%;
     float:left;
 }
 .iteam11 a{
@@ -391,33 +382,32 @@ i{
     z-index:5;
  }
  .iteam11:hover{
-   background-size:contain;
-   transition: all 7s ease 2s ;
-
+   background-size:cover;
+   transition: all 5s ease 2s ;
 } 
 .container2 {
     width: 80%;
-    margin: 0% 5% 0% 5%;
-    clear:both;
-   
+    margin: 0% 5% 0% 6%;
+    clear:both;  
 }
 .container2 h2{
     font-size:30px;
     font-weight:600;
     letter-spacing:0.2px;
-    margin:1% 0% 1% 0%;
+    margin:1% 0% 1.5% 0%;
+    padding:3% 0% 0% 0%;
 }
 .container2 p{
     font-size:16px;
     font-weight:300;
-    letter-spacing:0.2px;
-    margin:0% 0% 4% 0%;
+    letter-spacing:0.2px; 
 }
 .container3 {
     width: 100%;
     background: #202020;
     display:grid;
     grid-template-columns: auto;
+    margin:4.5% 0% 2% 0%;
     
 }
 .Inner_list{
@@ -463,7 +453,7 @@ justify-self:center;
    margin:2% 0% 2% 0%;
    justify-self: center;
 }
-@media screen and (max-width:1200px) and (min-width:990px) {
+@media screen and (max-width:1200px) and (min-width:1025px) {
    .Header {
       width: 100%;
       height:auto;
@@ -497,21 +487,24 @@ justify-self:center;
    width:506px;
    height:422.85px;
    margin:0% 0.4% 0.8% 0%;
+   
 }
 .iteam2 {
    width:506px;
    height:422.85px;  
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0% 0.8% 0.4%;
+   
 }
 .iteam3{
-   width:506px;
+   width:504px;
    height:422.85px;
    margin:0% 0.4% 0.8% 0%;
 }
 .iteam4{
    width:506px;
    height:422.85px;
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0% 0.8% 0.4%;
+   background-size:contain;
 }
 .iteam5 {
    width:336px;
@@ -521,12 +514,12 @@ justify-self:center;
 .iteam6 {
    width:336px;
    height:280.27px;
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0.2% 0.8% 0.2%;
 }
 .iteam7 {
    width:336px;
    height:280.27px;
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0% 0.8% 0.4%;
 }
 .iteam8 {
    width:336px;
@@ -536,12 +529,12 @@ justify-self:center;
 .iteam9 {
    width:336px;
    height:280.27px;
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0.2% 0.8% 0.2%;
 }
 .iteam10 {
    width:336px;
    height:280.27px;
-   margin:0% 0.4% 0.8% 0%;
+   margin:0% 0% 0.8% 0.4%;
 }
 .iteam11{
    width:0;
@@ -549,11 +542,15 @@ justify-self:center;
    font-size:0;
    color:transparent;
 }
+.iteam11 i{
+   font-size:0;
+   color:transparent;
+}
 .Inner_list{
    width:56%;
    }  
 }
-@media screen and (max-width:989px) and (min-width:770px) {
+@media screen and (max-width:1024px) and (min-width:769px) {
    .Header {
       width: 100%;
       height:auto;
@@ -581,7 +578,11 @@ justify-self:center;
 h3{
    font-size:26px;
    letter-spacing:0.5px;
-   margin:1% 0% 1% 0%;
+   margin:1% 0% 1% 1%;
+}
+.container1 {
+   margin: 0% 6% 0% 7%;
+
 }
 .iteam1 {
    width:865px;
@@ -603,67 +604,81 @@ h3{
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam5 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam6 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam7 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam8 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam9 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
 .iteam10 {
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
 }
-
 .iteam11{
    width:432px;
    height:359px; 
    margin:0% 0.3% 0.6% 0%;
+   background-size:cover;
+}
+.container2 {
+   margin: 0% 5% 0% 7%;
 }
 .Inner_list{
-   width:70%;
+   width:80%;
+   justify-self:center;
+   }
+.container3 li{
+      font-size:16px;
    }
 .container3 h2{
       font-size:22px;
       letter-spacing:0.5px;
 }  
 }
-@media screen and  (max-width:770px) and (min-width:360px) {
+@media screen and (max-width:768px) and (min-width:481px) {
    .Header {
       width: 100%;
       height:auto;
-      font-size: 12px;
+      font-size: 17px;
       font-weight: 450; 
       display:grid;
       grid-template-columns: auto;   
   }
   .Header img {
-   width: 4.8em;
+   width: 4.2em;
    margin:1% 0% 0% 0%;
    justify-self:center; 
 }
 .Inner_Header{
-   width:44%;
+   width:58%;
    height:30px;
    margin:1% 0% 1% 0%;
    padding:0%;
@@ -671,83 +686,246 @@ h3{
 }
 .Header li {
    margin: 0% 1.2% 0% 2%;
-   padding:0% 0% 0.2% 0%;
-   text-align: center;  
+   padding:0% 0% 0.2% 0%;  
 }
 h3{
-   font-size:18px;
-   letter-spacing:0.8px;
-   margin:1% 0% 1% 0%;
+   font-size:26px;
+   letter-spacing:1.1px;
+   margin:2% 0% 2% 4%;
+}
+.container1 {
+   margin: 0% 6% 0% 10%;
+}
+.container1 a{
+   font-size:16px;
+   font-weight:400;  
+}
+.container1 span {
+   font-size: 11px;
+   font-weight:100;   
 }
 .iteam1 {
-   width:350px;
-   height:291.72px;
+   width:601.77px;
+   height:501.13px;
    background-size:cover;
-   margin:0% 0.5% 0.8% 0%;
+   margin:0% 1.6% 1% 0%;
 }
 .iteam2 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
 }
 .iteam3 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
 }
 .iteam4 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
 .iteam5 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
 .iteam6 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
 .iteam7 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
 .iteam8 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
 .iteam9 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1.6% 0%;
+   background-size:cover;
 }
 .iteam10 {
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
 }
-
-.iteam11{
-   width:350px;
-   height:291.72px; 
-   margin:0% 0.5% 0.8% 0%;
+.iteam11 {
+   width:293.2px;
+   height:244.16px; 
+   margin:0% 1.6% 1% 0%;
+   background-size:cover;
+}
+.container2 {
+   margin: 0% 5% 0% 10%;
+}
+.container2 h2{
+   font-size:26px;
+   letter-spacing:1px;
+}
+.container2 p{
+   font-size:14px;
+   letter-spacing:0.8px;
+   line-height:24px; 
 }
 .Inner_list{
-   width:80%;
+   width:86%;
+   justify-self:center;
+   font-size:14px;
    }
 .container3 h2{
-      font-size:14px;
-      letter-spacing:0.8px;
+      font-size:22px;
+      letter-spacing:0.5px;
+}
+.Footer img{
+   width: 12em;  
 }  
+}
+@media screen and (max-width:480px) and (min-width:320px) {
+   .Header {
+      width: 100%;
+      height:auto;
+      font-size: 16px;
+      font-weight: 450; 
+      display:grid;
+      grid-template-columns: auto;   
+  }
+  .Header img {
+   width: 4.2em;
+   margin:1% 0% 0% 0%;
+   justify-self:center; 
+}
+.Inner_Header{
+   width:94%;
+   height:30px;
+   margin:2% 0% 2% 0%;
+   padding:0%;
+   justify-self:center;
+}
+.Header li {
+   margin: 0% 1.2% 0% 2%;
+   padding:0% 0% 0.2% 0%;  
+}
+h3{
+   font-size:26px;
+   letter-spacing:1.1px;
+   margin:3% 0% 3% 2%;
+}
+.container1 {
+   margin: 0% 6% 0% 8%;
+}
+.container1 a{
+   font-size:16px;
+   font-weight:400;  
+}
+.container1 span {
+   font-size: 11px;
+   font-weight:100;   
+}
+.iteam1 {
+   width:370.5px;
+   height:309.13px;
+   background-size:cover;
+   margin:0% 0% 1.6% 0%;
+}
+.iteam2 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+}
+.iteam3 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+}
+.iteam4 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam5 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam6 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam7 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam8 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam9 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam10 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.iteam11 {
+   width:370.5px;
+   height:309.13px; 
+   margin:0% 0% 1.6% 0%;
+   background-size:cover;
+}
+.container2 {
+   margin: 4% 5% 2% 8%;
+}
+.container2 h2{
+   font-size:24px;
+   letter-spacing:1.7px;
+}
 .container2 p{
    font-size:13px;
-   letter-spacing:0.4px;
+   letter-spacing:0.8px;
+   line-height:24px; 
 }
-.container3 p{
-   font-size:10px;
-  }
+.Inner_list{
+   width:86%;
+   justify-self:center;
+   font-size:14px;
+   margin:2% 0% 3% 0%;
+   }
+.container3 h2{
+      font-size:22px;
+      letter-spacing:0.5px;
+      justify-self:start;
+      padding:2% 0% 2% 0%;
+}
+.Footer a{
+   font-size:12px;
+}
+.Footer img{
+   width: 10em;  
+}  
 }
