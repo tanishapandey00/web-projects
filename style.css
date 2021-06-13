@@ -797,7 +797,7 @@ h3{
    .Header {
       width: 100%;
       height:auto;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 450; 
       display:grid;
       grid-template-columns: auto;   
@@ -808,7 +808,7 @@ h3{
    justify-self:center; 
 }
 .Inner_Header{
-   width:90%;
+   width:94%;
    height:30px;
    margin:2% 0% 2% 0%;
    padding:0%;
@@ -835,66 +835,66 @@ h3{
    font-weight:100;   
 }
 .iteam1 {
-   width:310.5px;
+   width:290px;
    height:258.72px;
    background-size:cover;
    margin:0% 0% 1.6% 0%;
 }
 .iteam2 {
-   width:310.5px;
+   width:290px;
    height:258.72px; 
    margin:0% 0% 1.6% 0%;
 }
 .iteam3 {
-   width:310.5px;
+   width:290px;
    height:258.72px; 
    margin:0% 0% 1.6% 0%;
 }
 .iteam4 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam5 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam6 {
-   width:310.5px;
+   width:290px;
    height:258.72px; 
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam7 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam8 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam9 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam10 {
-   width:310.5px;
+   width:290px;
    height:258.72px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
 .iteam11 {
-   width:310.5px;
-   height:258.72px;  
+   width:290px;
+   height:241.59px;  
    margin:0% 0% 1.6% 0%;
    background-size:cover;
 }
