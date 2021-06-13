@@ -797,7 +797,7 @@ h3{
    .Header {
       width: 100%;
       height:auto;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 450; 
       display:grid;
       grid-template-columns: auto;   
@@ -808,7 +808,7 @@ h3{
    justify-self:center; 
 }
 .Inner_Header{
-   width:96%;
+   width:90%;
    height:30px;
    margin:2% 0% 2% 0%;
    padding:0%;
