@@ -305,7 +305,7 @@ margin:auto;
 }
 
 /*Mobile*/
-@media(max-width:500px){
+@media(max-width:369px){
     .navbar{
         height:110px;
     }
