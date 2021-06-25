@@ -261,25 +261,31 @@ code,pre{
 .grid, .showcase .grid,
 .stats .grid,
 .cli .grid,
-.cloud .grid,
+.cloud .grid.features-main .grid,
+.docs-main .grid,
+.features-head,
+.features-sub-head,
 .features-main .grid,
-.docs-main .grid{
+.docs-main .grid
+{
     grid-template-columns:1fr;
-    
+    grid-template-rows:1fr;
 }
+
 .features-head, 
 .features-sub-head, 
 .docs-head{
 text-align:center;
 }
-.features-head  img, 
+.features-head  img,
 .features-sub-head img, 
 .docs-head img{
-width:180px;
-align-self:center;
+    width:180px;
+align-items:center;
 justify-self:center;
 margin:auto;
 }
+
 
 .features-main .grid>*:first-child,
 .features-main .grid>*:nth-child(2){
@@ -341,8 +347,8 @@ margin:auto;
             align-self:center;
         
         }
-    .showcase-text,.features-head, .features-sub-head,
-    .docs-head {
+    .showcase-text/*,.features-head, .features-sub-head,
+    .docs-head */{
             width:250px;
             align-self:center;
         }
