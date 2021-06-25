@@ -79,7 +79,7 @@ font-size:40px;
     top:60px;
     height:350px;
     max-width:400px;
-    min-width:250px;
+    
     padding:40px;
     z-index:100;
     justify-self:flex-end;
@@ -327,34 +327,21 @@ margin:auto;
         font-size:30px;
         align-self:center;
         }
+    .showcase-form{
+        width:250px;
+    }
     .stats .grid h3{
             font-size:26px;
             align-self:center;
         }
-.stats .grid p{
+    .stats .grid p, .languages .card h4{
             font-size:17px;
             align-self:center;
         
         }
-.languages .card h4{
-            font-size:17px;
-            margin-bottom:10px;
-            align-self:center;
-        }
-        .showcase-text{
+    .showcase-text,.features-head, .features-sub-head,
+    .docs-head {
             width:250px;
             align-self:center;
         }
- .features-head{
-    width:250px;
-    align-self:center;
- }
- .features-sub-head{
-    width:250px;
-    align-self:center;
- }
- .docs-head{
-    width:250px;
-    align-self:center;
- }
 }
