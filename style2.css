@@ -125,6 +125,7 @@ font-size:16px;
 }
 .stats-heading{
     max-width:500px;
+    min-width:250px;
     margin:auto;   
 }
 .cli .grid{
@@ -321,4 +322,19 @@ margin:auto;
         margin:10px 10px;
         padding: 6px 0px;
     }
+    .showcase h1{
+        font-size:30px;
+        }
+    .stats .grid h3{
+            font-size:26px;
+        }
+.stats .grid p{
+            font-size:17px;
+           
+        
+        }
+.languages .card h4{
+            font-size:17px;
+            margin-bottom:10px;
+        }
 }
