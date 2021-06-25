@@ -75,10 +75,10 @@ font-size:40px;
     animation:slideInfromleft 1.2s ease-in;
 }
 .showcase-form{
+    width:400px;
     position:relative;
     top:60px;
     height:350px;
-    width:400px;
     padding:40px;
     z-index:100;
     justify-self:flex-end;
