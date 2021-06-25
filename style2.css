@@ -78,8 +78,7 @@ font-size:40px;
     position:relative;
     top:60px;
     height:350px;
-    max-width:400px;
-    
+    width:400px;
     padding:40px;
     z-index:100;
     justify-self:flex-end;
