@@ -325,20 +325,36 @@ margin:auto;
     }
     .showcase h1{
         font-size:30px;
+        align-self:center;
         }
     .stats .grid h3{
             font-size:26px;
+            align-self:center;
         }
 .stats .grid p{
             font-size:17px;
-           
+            align-self:center;
         
         }
 .languages .card h4{
             font-size:17px;
             margin-bottom:10px;
+            align-self:center;
         }
         .showcase-text{
             width:250px;
+            align-self:center;
         }
+ .features-head{
+    width:250px;
+    align-self:center;
+ }
+ .features-sub-head{
+    width:250px;
+    align-self:center;
+ }
+ .docs-head{
+    width:250px;
+    align-self:center;
+ }
 }
