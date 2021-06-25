@@ -153,14 +153,25 @@ transition:transform 0.2s ease-in;
 .languages .card:hover{
     transform:translateY(-15px);
 }
+.features-head .container{
+    overflow:visible;
+}
+.features-head .container div{
+    animation:slideInfromleft 1.2s ease-in;
+}
 .features-head img{
     width:200px;
     justify-self:flex-end;
+    animation:slideInfromright 1.2s ease-in;
+}
+.features-sub-head .container{
+    animation:slideInfrombottom 1.2s ease-in;
 }
 .features-sub-head img{
     width:300px;
     justify-self:flex-end;  
 }
+
 .features-main .card>i{
     margin-right:20px;
 }
@@ -173,9 +184,16 @@ transition:transform 0.2s ease-in;
 .features-main .grid-3>*:nth-child(2){
     grid-column:1/span 2;
 }
+.docs-head .container{
+    overflow:visible;
+}
+.docs-head .container div{
+    animation:slideInfromleft 1.2s ease-in;
+}
 .docs-head img{
     width:200px;
     justify-self:flex-end;
+    animation:slideInfromright 1.2s ease-in;
 }
 .docs-main h3{
     margin:20px 0;
