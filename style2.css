@@ -78,7 +78,8 @@ font-size:40px;
     position:relative;
     top:60px;
     height:350px;
-    width:400px;
+    max-width:400px;
+    min-width:250px;
     padding:40px;
     z-index:100;
     justify-self:flex-end;
@@ -336,5 +337,8 @@ margin:auto;
 .languages .card h4{
             font-size:17px;
             margin-bottom:10px;
+        }
+        .showcase-text{
+            width:250px;
         }
 }
