@@ -346,4 +346,12 @@ margin:auto;
             width:250px;
             align-self:center;
         }
+    .features-head .container h1, .features-sub-head .container h1,
+    .docs-head .container h1{
+        font-size:30px;
+    }
+    .features-head .container p, .features-sub-head .container p,
+    .docs-head .container p{
+        font-size:17px;
+    }
 }
