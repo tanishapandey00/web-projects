@@ -309,13 +309,10 @@ margin:auto;
     grid-column:1;
     grid-row:1;
 }
-
-
-
 }
 
 /*Mobile*/
-@media screen and (max-width:480px) and (min-width:320px){
+@media screen and (max-width:480px) and (min-width:369px){
     .navbar{
         height:110px;
     }
@@ -331,12 +328,17 @@ margin:auto;
         margin:10px 10px;
         padding: 6px 0px;
     }
-    .showcase h1{
-        font-size:30px;
-        align-self:center;
-        }
+    .grid > .showcase-text{
+        margin:auto;
+    }
+    .features-head .container div, .docs-head .container div{
+        animation:slideInfromtop 1.2s ease-in;
+    }
+    .features-head .container img, .docs-head .container img{
+        animation:slideInfrombottom 1.2s ease-in;
+    }
     .showcase-form{
-        width:250px;
+        width:320px;
     }
     .stats .grid h3{
             font-size:26px;
@@ -345,19 +347,15 @@ margin:auto;
     .stats .grid p, .languages .card h4{
             font-size:17px;
             align-self:center;
-        
         }
+    .cloud > .grid, .features-head > .grid,
+    .features-sub-head > .grid, .docs-head > .grid
+    {
+        grid-template-columns:1fr;
+    }
     .showcase-text/*,.features-head, .features-sub-head,
     .docs-head */{
             width:250px;
             align-self:center;
         }
-    .features-head .container h1, .features-sub-head .container h1,
-    .docs-head .container h1{
-        font-size:30px;
-    }
-    .features-head .container p, .features-sub-head .container p,
-    .docs-head .container p{
-        font-size:17px;
-    }
 }
