@@ -358,5 +358,8 @@ margin:auto;
             align-self:center;
         }
         .features-head, .features-sub-head,
-    .docs-head { align-self:center;}
+    .docs-head {
+         width:100%;
+         align-self:center;
+        }
 }
