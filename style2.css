@@ -353,9 +353,10 @@ margin:auto;
     {
         grid-template-columns:1fr;
     }
-    .showcase-text
-    {
+    .showcase-text{
             width:280px;
             align-self:center;
         }
+        .features-head, .features-sub-head,
+    .docs-head { align-self:center;}
 }
