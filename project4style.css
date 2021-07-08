@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Montserrat',sans-serif;
+    line-height:1.6;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+h1{
+    font-weight:400;
+    line-height:1.2;
+    margin:5px 0;
+}
+p{
+    margin:5px 0;
+    color:#fff;
+}
+img{
+    width:100%;
+}
+.navbar{
+    background-color:#141414;
+    height:60px;
+}
+.navbar .flex{
+    justify-content:space-between;
+}
+.navbar .logo{
+    width:72px;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar a{ 
+    margin:0 5px;
+    padding: 15px;
+}
+.navbar a:hover{
+    border-radius:6px;
+    box-shadow: 0px 0px 2.6px 1.2px #fff;
+}
+.showcase{
+    height:550px;
+    background:url(./images/food_on_table2.png) no-repeat center bottom;
+    background-size:cover;
+    color:#fff;
+    position:relative;
+    
+}
+.showcase .heading{
+    font-family:Rockwell;
+    font-size:54px;
+    margin-left:10px;
+}
+.showcase .container div{
+    margin:10px 0;
+    position:absolute;
+    top:10%;
+}
+.showcase .container p{
+    font-size:24px;
+    letter-spacing:1.2px;
+    margin-left:10px;
+}
+.reservation,.reservation .flex{
+    height:140px;
+    background:#F27034;
+    justify-content:space-between;
+    font-size:17px;
+}
+.reservation .container .btn{
+    border-color:#fff;
+}
+.menu{
+background:#141414;
+}
+.menu h1{
+    font-size:38;
+    font-weight:500;
+    color:#fff;
+    margin:auto;
+    padding:40px 0;
+    align-items:center;
+}
+.bg-image1{
+    background-image:url(./images/samosa.jpg) no-repeat center center;
+    background-size:contain;
+
+}
+
+

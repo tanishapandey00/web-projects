@@ -312,7 +312,7 @@ margin:auto;
 }
 
 /*Mobile*/
-@media screen and (max-width:480px) and (min-width:369px){
+@media screen and (max-width:480px) and (min-width:300px){
     .navbar{
         height:110px;
     }
@@ -353,8 +353,8 @@ margin:auto;
     {
         grid-template-columns:1fr;
     }
-    .showcase-text/*,.features-head, .features-sub-head,
-    .docs-head */{
+    .showcase-text,.features-head, .features-sub-head,
+    .docs-head {
             width:250px;
             align-self:center;
         }
