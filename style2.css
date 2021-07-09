@@ -340,6 +340,7 @@ margin:auto;
     .showcase-form{
         width:290px;
     }
+    
     .stats .grid h3{
             font-size:26px;
             align-self:center;
@@ -362,4 +363,11 @@ margin:auto;
          width:100%;
          align-self:center;
         }
+        .footer .grid{
+            grid-template-columns:repeat(1,1fr);
+        }
+        .footer .social a{
+            margin:10px 10px 10px 0px;
+        }
+
 }
