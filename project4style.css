@@ -32,14 +32,22 @@ img{
     width:100%;
 }
 .navbar{
-    background-color:#141414;
-    height:60px;
+    height:70px;  
+}
+.footer{
+    border: 1px solid #272727;
+}
+.footer .logo{
+    padding:10px 0px;
 }
 .navbar .flex{
     justify-content:space-between;
 }
-.navbar .logo{
+.navbar .logo,.footer .logo{
     width:72px;
+}
+.footer .logo{
+    align-items:center;
 }
 .navbar ul{
     display:flex;
@@ -47,10 +55,11 @@ img{
 .navbar a{ 
     margin:0 5px;
     padding: 15px;
+    transition: all 0.1s  linear ;
 }
 .navbar a:hover{
-    border-radius:6px;
-    box-shadow: 0px 0px 2.6px 1.2px #fff;
+    color:#F27034;
+    background-color: rgba(255,255,255,0.05);
 }
 .showcase{
     height:550px;
@@ -58,7 +67,6 @@ img{
     background-size:cover;
     color:#fff;
     position:relative;
-    
 }
 .showcase .heading{
     font-family:Rockwell;
@@ -66,7 +74,7 @@ img{
     margin-left:10px;
 }
 .showcase .container div{
-    margin:10px 0;
+    margin:50px 0;
     position:absolute;
     top:10%;
 }
@@ -84,11 +92,12 @@ img{
 .reservation .container .btn{
     border-color:#fff;
 }
-.menu{
+
+.menu, .contact, .footer,.navbar{ 
     background:#141414;
-    }
-.menu h1{
-    font-size:38;
+}
+.menu h1,.contact h1{
+    font-size:32px;
     font-weight:500;
     color:#fff;
     margin:auto;
@@ -141,9 +150,6 @@ img{
 .card .content h2{
     color:#fff;
 }
-.card .content p{
-    color:#F27034;
-}
 .card .content .btn{
     padding:4px;
     margin:8px 40px;
@@ -151,14 +157,144 @@ img{
     border-radius: 17px; 
 }
 .order{
-    background:#EFEFEF;
+    background:#EAEAEA;
 }
 .order .grid{
-    gap:16px;
+    gap:20px;
     grid-template-columns:repeat(3,1fr);
 }
 .order-details{
     margin:30px auto;
+    align-items:flex-start;
+    justify-content:start;
 }
-
-
+.order h1{
+    font-size:32px;
+    font-weight:500;
+    color:#F27034;
+    margin:auto;
+    padding:40px 0;
+    align-items:center;
+}
+.order .order-details h2{
+    font-size:28px;
+    color:#000;
+    padding-bottom:10px;
+}
+.map{
+    border: 5px groove #afafaf;
+    border-radius:5px;
+}
+.order .empty{
+    height:30px;
+    background-color:#EAEAEA;
+}
+.contact .grid{
+    grid-template-columns:repeat(2,1fr);
+}
+.contact .contact-Us h2{
+    font-size:28px;
+    color:#fff;;
+    padding-bottom:10px;
+    align-items:flex-start;
+    justify-items: flex-start;
+}
+.contact .contact-Us div{
+    margin: 20px 0px;
+    font-size:18px;
+}
+.fas{
+    margin-right:15px;
+}
+.contact .container{
+    align-items:flex-start;
+}
+.contact .contact-Us{
+    padding:60px;
+}
+.contact-form{
+    width:500px;
+    position:relative;
+    padding:40px;
+    z-index:100;
+    justify-self:flex-end;
+    color:#fff;
+}
+.contact-form h2{
+    margin: 5px 10px;
+}
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form input[type='password'],
+.contact-form #textarea{
+width:100%;
+font-size:16px;
+border:1px solid #fff;
+background-color:transparent;
+padding: 8px 5px;
+margin: 5px 10px;
+color:#fff;
+}
+.contact-form input:focus{
+    outline:none;
+}
+.contact-form .btn{
+    padding:10px 15px;
+}
+.contact-form .btn:hover{
+    color:#fff;
+}
+@media screen and (max-width:768px){
+.navbar .container, .showcase .container,
+.reservation .container, .menu .container,
+.order .container, .contact .container{
+    margin:0 14px;
+}
+.menu .grid{
+    grid-template-columns:repeat(2,1fr);
+}
+.menu .card-menu{
+    margin:50px auto;
+}
+.order .grid, .contact .grid{
+    grid-template-columns:repeat(1,1fr); 
+}
+.order .map ,.order .order-details,.deliveryboy,
+.contact .contact-Us, .contact .contact-form
+{
+    margin:10px auto;
+}
+}
+@media screen and (max-width:480px) and (min-width:300px){
+    .navbar{
+        height:130px;
+        
+    }
+    .navbar .flex{
+        flex-direction:column;
+    }
+    .navbar ul{
+        padding:10px;
+        background-color:rgba(255,255,255,0.2);
+        border-radius:6px;
+    }
+    .navbar .logo, .navbar nav{
+        margin:10px auto;  
+    }
+    .reservation .flex{
+        flex-direction:column; 
+    }
+    .reservation p, .reservation .btn{
+        margin:15px auto;
+    }
+    .menu .grid{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .order .order-details{
+        width:300px
+    }
+    .content .content-form{
+        width:300px;
+        margin: 10px auto;
+    }
+}
