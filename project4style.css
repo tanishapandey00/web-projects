@@ -267,25 +267,48 @@ color:#fff;
 }
 @media screen and (max-width:480px) and (min-width:300px){
     .navbar{
-        height:130px;
-        
+        height:130px;  
     }
     .navbar .flex{
         flex-direction:column;
+        margin:0;
+        padding:0;
     }
     .navbar ul{
+        font-size:15px;
         padding:10px;
         background-color:rgba(255,255,255,0.2);
         border-radius:6px;
+        margin:auto;
+    }
+    .navbar a{ 
+        margin:0 5px;
+        padding: 5px; 
     }
     .navbar .logo, .navbar nav{
         margin:10px auto;  
     }
+    .showcase{
+        height:350px;
+    }
+    .showcase .heading{
+        font-size:44px;
+    }
+    .showcase .container div{
+        text-align:center;
+        margin:15px auto;
+    }
     .reservation .flex{
-        flex-direction:column; 
+        flex-direction:column;
+        margin:auto; 
+    }
+    .reservation p{
+        width:80%;
     }
     .reservation p, .reservation .btn{
-        margin:15px auto;
+        font-size:16px;
+        text-align:center;
+        margin:10px auto;
     }
     .menu .grid{
         grid-template-columns:repeat(1,1fr);
@@ -293,8 +316,39 @@ color:#fff;
     .order .order-details{
         width:300px
     }
-    .content .content-form{
-        width:300px;
-        margin: 10px auto;
+    .order .container{
+        margin:auto;
+        text-align:center;
     }
+    .order .map{
+        width:301px;
+        height:301px;
+        object-fit:cover;
+        margin:auto;
+    }
+    pre{
+        font-size:13px;
+        text-align:left;
+    }
+    .contact .container{
+        width:80%;
+        padding:0;
+        margin:0;
+    }
+    .contact .contact-Us{
+        width:90%;
+        margin:5px auto;
+        padding:20px auto;
+    }
+    .contact-form{
+        width:300px;
+        justify-self:center;
+        margin:10px auto;
+        padding:0;
+    }
+     .contact .contact-form h2{
+        margin:10px auto;
+        text-align:center;
+    }
+    
 }
