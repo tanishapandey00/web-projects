@@ -304,9 +304,11 @@ color:#fff;
     .showcase .heading{
         font-size:44px;
     }
+    
     .showcase .container div{
         text-align:center;
         margin:15px auto;
+        top:10%;
     }
     .reservation .flex{
         flex-direction:column;
