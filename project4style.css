@@ -25,9 +25,6 @@ p{
     margin:5px 0;
     color:#fff;
 }
-pre{
-    font-size:16px;
-}
 img{
     width:100%;
 }
@@ -76,7 +73,7 @@ img{
 .showcase .container div{
     margin:50px 0;
     position:absolute;
-    top:10%;
+    top:20%;
 }
 .showcase .container p{
     font-size:24px;
@@ -189,6 +186,19 @@ img{
     height:30px;
     background-color:#EAEAEA;
 }
+.order .order-details{
+    margin:auto;
+}
+.order .order-details p{
+    color:#000;
+}
+.order .map iframe{
+    width:400px;
+    height:400px;
+    object-fit:cover;
+    margin:auto;
+}
+.order .order-details p,
 .contact .grid{
     grid-template-columns:repeat(2,1fr);
 }
@@ -320,22 +330,20 @@ color:#fff;
         margin:auto;
         text-align:center;
     }
-    .order .map{
-        width:301px;
-        height:301px;
+    .order .map iframe{
+        width:300px;
+        height:300px;
         object-fit:cover;
         margin:auto;
     }
-    pre{
-        font-size:13px;
-        text-align:left;
-    }
+    
     .contact .container{
         width:80%;
         padding:0;
         margin:0;
     }
     .contact .contact-Us{
+        text-align:center;
         width:90%;
         margin:5px auto;
         padding:20px auto;
