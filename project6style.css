@@ -257,6 +257,10 @@ hr{
     display:flex;
     justify-content:space-between;
 }
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
 @media screen and (max-width:480px) and (min-width:300px){
     header, .Images-section,
     .Curve-section, .book,
