@@ -1,0 +1,170 @@
+
+.showcase{
+    background:rgba(103, 35, 214, 1);
+    background-image:url(./images/inspiration-geometry.png);
+    height:auto;
+    overflow:auto;
+}
+.card{
+    border-radius:6px;
+    z-index:100;
+}
+img{
+    width:100%;
+}
+.showcase .card h2{
+    font-size:16px;
+    font-weight:600;
+}
+.showcase .card .name{
+    display:flex;  
+}
+.showcase .showcase-left a,
+.showcase-marketing .showcase-marketing-up a {
+    border-radius:25px;
+    background-color:rgba(204, 184, 236, 1);
+    color:rgba(103, 35, 214, 1);
+    font-size:12px;
+    font-weight:450;
+    padding:5px 10px;
+    
+}
+.showcase-marketing-up h3{
+    font-size:23px;
+    font-weight:500;
+    margin-top:20px;
+}
+.showcase-marketing-up p{
+    color:rgba(149, 149, 149, 1);
+}
+.showcase .showcase-left h1{
+    font-size:38px;
+    line-height:1.2;
+    font-weight:600;
+}
+.showcase .showcase-left p{
+    font-size:18px;
+    line-height:1.6;
+    color:rgba(199, 169, 249, 1);
+}
+.showcase .empty{
+position: absolute;
+width:100%;
+height: 70px;
+left: -0.65px;
+top: 680px;
+background: #FFFCFC;
+transform: rotate(-1.9deg);
+z-index:100;
+
+}
+.showcase-brand{
+    position:relative;
+    top:70px;
+}
+.showcase-brand p{
+    color:rgba(169, 169, 169, 1);
+    font-weight:600;
+    justify-content:flex-end;
+}
+.showcase-marketing{
+    background-color:rgba(233, 239, 255, 0.91);
+    position:relative;
+    top:160px;
+}
+.showcase-marketing .showcase-marketing-down .icon-circle{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    position:relative;
+
+}
+.fas , .far{
+ font-size:28px;
+ position:absolute;
+ left:32%;
+ top:32%;
+}
+.icon-1{
+    background-color: rgba(218, 190, 240, 1);
+    color :rgba(143, 0, 255, 1);
+}
+.icon-2, .icon-2 .fas{
+    background-color: rgba(176, 242, 203, 1);
+    color :rgba(0, 205, 82, 1);
+}
+.icon-3, .icon-3 .fas{
+    background-color: rgba(168, 207, 243, 1);
+    color :rgba(0, 133, 255, 1);
+}
+.icon-4, .icon-4 .fas{
+    background-color: rgba(245, 226, 175, 1);
+    color :rgba(255, 184, 0, 1);
+}
+.showcase-marketing-down .row{
+    gap:40px;
+}
+.showcase-marketing-down .card{
+    width:auto;
+    height:auto;
+    background-color:rgba(255,255,255,1);
+    box-shadow:0px 0px 10px 6px rgba(5, 5, 5, 0.13);
+}
+.showcase-marketing-down .card h4{
+    font-size:20px;
+}
+.showcase-marketing-down .card p{
+    color:rgba(143, 143, 143, 1);
+}
+.showcase-empty-1{
+    width:100%;
+    height:100px;
+    background-color:rgba(233, 239, 255, 0.91);
+    transform: rotate(-1.9deg);
+    position:relative;
+    left:-1px;
+    top:-22px;
+}
+.showcase-empty-2{
+    width:100%;
+    height:160px;
+    background-color:rgba(255,255,255,1);
+    transform: rotate(-1.9deg);
+    position:relative;
+    left:-2px;
+    top:30px;
+}
+.showcase-contact{
+   display:flex;
+   justify-content:space-between; 
+}
+.showcase-contact h4{
+    font-size:22px;
+}
+.showcase-contact p{
+    font-size:17px;
+    color:rgba(143, 143, 143, 1);
+}
+.btn-1:hover{
+    background:rgba(218, 218, 218, 1);
+}
+.f-background{
+    background:rgba(255,255,255,1);
+   
+}
+.f-1,.f-2,.f-2 a,.f-3,.f-3 a,.f-4 a,.f-4,.f-5,.f-5 a,.f-6,.f-7{
+   color: rgba(129, 129, 129, 1);
+}
+.social-icon li{
+    color: rgba(129, 129, 129, 1);
+    padding:4px;
+    margin-top:5px;
+}
+@media screen and (max-width:480px) and (min-width:300px){
+    body{
+        width:100%;
+    }
+    .showcase .empty{
+        top: 1040px;
+        }
+}

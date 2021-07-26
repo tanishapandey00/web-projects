@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .fas{
     color:black;
@@ -265,7 +265,7 @@ hr{
     header, .Images-section,
     .Curve-section, .book,
     .contact-section, footer{
-        width:100%;
+        width:100vw;
     }
     .Curve-section .upper-curve{ 
         transform:scaleX(1.2);
