@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Retool</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootCSS/bootstrap.min.css" text="text/css">
+    <link rel="stylesheet" href="./retool.css" text="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+
+        <div class="showcase">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-7 card box">
+                        <div class="row">
+                            <div id="top" class="col-lg-12">
+                                <h4 class="mx-3 my-3">Get started with Retool</h4>
+                            </div>
+                            <div id="middle-left-2" class="col-lg-4">
+                                <div>
+                                    <h4 class="mx-3 my-3">Configure your MySQL resource</h4>
+                                    <p class="mx-3 my-2">You're almost there! Follow the
+                                        instructions below to configure your MySQL resource connection.
+                                    </p>
+                                    <ul>
+                                        <li><a href="">1</a>
+                                               Allow Retool to connect to your database by
+                                                white-listing our IP address:<br>52.175.251.223
+                                            <a href=""><i class="far fa-file"></i></a>
+                                        </li>
+                                        <li><a href="">2</a>
+                                             Enter your MySQL details and connect.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a>
+                                       <img src="./images/MySQL-Logo.wine.svg" alt=""> MySQL docs <i class="fas fa-share-square"></i>
+                                    </a>
+                                    <p class="mx-3 my-2">
+                                        Is your data in a private network?<a class="text-primary">Get Retool running locally in 5 minutes.</a>.
+                                    </p>
+                                    <p class="mx-3 my-2 mb-4">
+                                        Not ready to connect your data?<a class="text-primary">Try Retool using demo data.</a>.
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="middle-right" class="col-lg-8 col-md-8">
+                                <form>
+                                    <div class="form-group mb-0">
+                                        <label for="exampleInputName"><a href="" class="text-danger"> * </a> Name</label>
+                                        <input type="text" class="form-control" id="exampleInputName" placeholder="i.e.'Production DB (readonly)' or'Internal Admin API'"
+                                        autocomplete="off" required>   
+                                    </div>
+                                    <div>
+                                        <h3 class="text-capitalize">
+                                            GENERAL
+                                        </h3>
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <label for="exampleInputHost"><a href="" class="text-danger"> * </a> Host</label>
+                                        <input type="text" class="form-control" id="exampleInputHost" autocomplete="off" required>   
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <label for="exampleInputPort"><a href="" class="text-danger"> * </a> Port</label>
+                                        <input type="text" class="form-control" id="exampleInputPort" autocomplete="off" required>   
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <label for="exampleInputdatabase">Database name</label>
+                                        <input type="text" class="form-control" id="exampleInputdatabase" autocomplete="off" placeholder="hn_api_production" required>   
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <label for="exampleInputDatabaseusername">Database username</label>
+                                        <input type="text" class="form-control" id="exampleInputDatabaseusername" autocomplete="off" placeholder="retool" required>   
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Connect using SSL</label>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-capitalize">
+                                            ADMIN ONLY
+                                        </h3>
+                                    </div>
+                                    <div class="warning px-3 py-2 mx-2 my-4">
+                                        <i class="fas fa-exclamation-circle text-warning px-2"></i>
+                                        <p>Be careful when making changes.</p>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Use dynamic database names<i class="fas fa-question-circle text-disable ml-1"></i></label>
+                                    </div><div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Disable converting queries to prepared statements<i class="fas fa-question-circle text-disable ml-1"></i>
+                                        </label>
+                                    </div><div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Show write GUI mode only<i class="fas fa-question-circle text-disable ml-1"></i>
+
+                                        </label>
+                                    </div><div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Convert MySQL date strings to Javascript<i class="fas fa-question-circle text-disable ml-1"></i></label>
+                                    </div><div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Enable SSH tunnel</label>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div id="bottom-2" >
+                            <div class="my-2 pt-1">
+                           <a href="retool.html" ><i class="fas fa-arrow-left px-2"></i> Back</a></div>    
+                           <div class="my-2 py-1">
+                               <a href="" class="mx-2 px-2">Test Connection</a>
+                           <button>
+                              <a class="text-center">Create resource <i class="fas fa-arrow right px-2"></i></a> 
+                           </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="./root.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
