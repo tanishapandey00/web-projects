@@ -77,6 +77,14 @@ object-fit:cover;
     /*Mic drop*/
     box-shadow: 0.1rem 1.4rem 3rem 0.5rem rgba(25, 105, 255, 0.507);
 }
+.song_img_5{
+    /*How you loke that*/
+    box-shadow: 0.1rem 1.4rem 3rem 0.5rem rgba(253, 49, 226, 0.507);
+}
+.song_img_6{
+    /*How you loke that*/
+    box-shadow: 0.1rem 1.4rem 3rem 0.5rem rgba(65, 68, 255, 0.507);
+}
 .music_controls{
 width:20rem;
 display:flex;

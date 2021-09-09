@@ -33,6 +33,18 @@ const songs = [
         title: "Mic drop",
         artist: "BTS",
         style: "song_img_4"
+    },
+    {
+        name: "How You Like That",
+        title: "How You Like That",
+        artist: "Blackpink",
+        style: "song_img_5"
+    },
+    {
+        name: "Kill this Love",
+        title: "Kill this Love",
+        artist: "Blackpink",
+        style: "song_img_6"
     }
 ]
 let isPlaying = false;
