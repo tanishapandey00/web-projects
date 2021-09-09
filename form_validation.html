@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
-    <title></title>
+    <title>Form Validation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,31 +16,31 @@
         <div class="header">
             <h2>REGISTRATION FORM</h2>
         </div>
-        <form action="" class="form" id="form">
+        <form action="" class="form" id="form" onsubmit="return validate()">
             <div class="form-control">
                 <label for="">Username</label>
-                <input type="text" name="" id="username" placeholder="Enter your Fullname" autocomplete="off">
+                <input type="text" id="username" placeholder="Enter your Fullname" value="" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Msg</small>
             </div>
             <div class="form-control">
                 <label for="">Email</label>
-                <input type="email" name="" id="email" placeholder="Enter your Email" autocomplete="off">
+                <input type="email" id="email" placeholder="Enter your Email" value="" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Msg</small>
             </div>
             <div class="form-control">
                 <label for="">Phone Number</label>
-                <input type="number" name="" id="phone" placeholder="Enter your Phone Number" autocomplete="off">
+                <input type="number" id="phone" placeholder="Enter your Phone Number" value="" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Msg</small>
             </div>
             <div class="form-control">
                 <label for="">Password</label>
-                <input type="password" name="" id="password" placeholder="Enter your Password" autocomplete="off">
+                <input type="password" id="password" placeholder="Enter your Password" value="" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Msg</small>
@@ -55,10 +55,8 @@
             <input type="submit" value="Submit" class="btn" name="">
         </form>
     </div>
-    <!-- <script src="./form_validation.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>-->
-    <script type="text/javascript">
+    <script src="./form_validation.js"></script>
+    <!--<script type="text/javascript">
         const form = document.getElementById('form');
         const username = document.getElementById('username');
         const phone = document.getElementById('phone');
@@ -157,7 +155,7 @@
             return true;
         }
         
-    </script>
+    </script>-->
 </body>
 
 </html>

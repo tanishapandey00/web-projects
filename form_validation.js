@@ -1,52 +1,62 @@
 const form = document.getElementById('form');
 const username = document.getElementById('username');
-const phone = document.getElementById('phone');
 const email = document.getElementById('email');
+const phone = document.getElementById('phone');
 const password = document.getElementById('password');
 const cpassword = document.getElementById('cpassword');
 
-//Add Event 
+//Add Event
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
+    event.preventDefault();  //Default mai binaa kuch enter kiyee submit nhi hogaa//
     validate();
 })
 //More Email validate
-const isEmail = (emailVal) =>{
-var atSymbol =emailVal.indexOf("@");
-if(atSymbol<1) return false;
-var dot = emailVal.lastindexOf(".");
-if(dot<=atSymbol + 3) return false;
-if(dot === emailVal.length-1) return false;
-return true;
-}
-//Define validatte function
-const validate = () => {
-    const usernameVal = username.value.trim();
-    const phoneVal = phone.value.trim();
-    const emailVal = email.value.trim();
-    const passwordVal = password.value.trim();
-    const cpasswordVal = cpassword.value.trim();
-    //Validate Username
-    if (usernameVal === "") {
-        setErrorMsg(username, 'username cannnot be blank');
-    } else if (usernameVal.length <= 2) {
-        setErrorMsg(username, 'username min 3 characters');
-    }else{
-        setSuccesMsg(username);
+function isEmail(emailval) {
+    var atSymbol = emailval.indexOf("@");
+    if (atSymbol < 1) {
+        return false;
     }
-    //Validate email
-    if (emailVal === "") {
-        setErrorMsg(email, 'email cannnot be blank');
-    } else if (!isEmail(emailVal)) {
-        setErrorMsg(email, 'Not a valid email');
-    }else{
-        setSuccesMsg(email);
+    var dot = emailval.lastIndexOf(".");
+    if (dot <= atSymbol + 2) {
+        return false;
+    }
+    if(dot === emailval.length -1){
+        return false;
+    }
+    return true;
+}
+//Defining Validate function
+function validate() {
+    const usernameval = username.value.trim();
+    const emailval = email.value.trim();
+    const phoneval = phone.value.trim();
+    const passwordval = password.value.trim();
+    const cpasswordval = cpassword.value.trim();
+
+    //Validate username
+    if (usernameval === "") {
+        setErrorMsg(username, 'user cannot be blank');
+    }
+    else if (usernameval.length <= 2) {
+        setErrorMsg(username, 'user 3 characters');
+    }
+    else {
+        setSuccessMsg(username);
+    }
+    // Validate Email
+    if (emailval === "") {
+        setErrorMsg(email, 'email cannot be blank');
+    }
+    else if (!isEmail(emailval)) {
+        setErrorMsg(email, 'Not a valid emal');
+    }
+    else {
+        setSuccessMsg(email);
     }
 }
-function setErrorMsg(input,errormsgs){
-    const formControl = input.parentElement;
-    const small = formControl.querySelector('small');
-    formControl.className="form-control error";
-    small.innerText = errormsgs;
+function setErrorMsg( input , errormsgs){
+const formControl = input.parentElement;
+const small = formControl.querySelector('small');
+formControl.className = "form-control error";
+small.innerText = errormsgs;
 }
-function swet
