@@ -8,24 +8,15 @@ body{
     width:100%;
     background-color:rgb(223, 241, 247);
 }
-.container{
-    width:80%;
-    padding:10px;
-    margin:auto;
-    margin-top:50px
-}
+
 .container h3{
     display:flex;
     justify-content: center;
     font-size:26px;
     margin:20px 0px;
 }
-.container .grid{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    
-}
-.container .grid .card{
+
+.container .card{
     border:2px solid #000;
     background-color:rgb(145, 145, 145);
     padding: 10px 20px;
@@ -34,7 +25,6 @@ body{
 .card-in{
     width:30%;
     background-color:blanchedalmond;
-    margin-left:auto;
     margin-bottom:5px;
 }
 .card .card-in h5{
@@ -44,9 +34,11 @@ body{
    
 }
 @media ( max-width:900px){
-    .container .grid{
-        display:grid;
-        grid-template-columns: repeat(1,1fr);
-        
+    .container .card{
+        padding: 10px 10px;
+        margin: 10px 0px;
+    } 
+    .card-in{
+        width:50%;
     }
 }
