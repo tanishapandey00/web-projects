@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Forest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <script src="https://kit.fontawesome.com/c41f0afab0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="bg"></div>
+    <section id="landing">
+        <h1>Travel forest</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, assumenda, laudantium laboriosam libero
+            recusandae consequatur placeat impedit porro laborum eveniet quae doloremque ad ab magnam maxime deleniti
+            enim non rem.
+        </p>
+        <button type="button" name="button" onclick="enterSite();">Enter</button>
+    </section>
+    <div id="dimmed-bg"></div>
+    <section id="full-site">
+        <aside id="register-side-bar">
+            <div id="empty-section"></div>
+            <section id="visible-section">
+                <span id="call-num"><i class="fas fa-phone"></i>1-800-368-8289</span>
+                <h4 id="reg">Register</h4>
+            </section>
+            <section id="form-section">
+                <h2>Register your Account</h2>
+                <form action="index.html" method="post" autocomplete="off">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="pass" placeholder="Password" required>
+                    <input type="password" name="con_pass" placeholder="Confirm Password" required>
+                    <input type="submit" name="submit" value="Register">
+                </form>
+                <p>Already have an account?<a href="#">Login</a>.</p>
+            </section>
+        </aside>
+        <section id="above-fold">
+            <nav>
+                <ul>
+                    <li><a href="#">Travel Forest</a></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Deal of the Week</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Become a Sponsor</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Book your next vacation with us!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid iste pariatur, voluptatibus
+                    consectetur non sint incidunt. Saepe nihil, porro id repudiandae, recusandae nostrum quos,
+                    praesentium assumenda eligendi nemo suscipit.</p>
+                <button type="button" name="button">Get Started</button>
+            </article>
+        </section>
+        <section id="info-section">
+            <article>
+                <figure></figure>
+                <div>
+                    <h2>Travel WorldWide</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus cupiditate
+                        necessitatibus ab dolorum eligendi.</p>
+                </div>
+            </article>
+            <article>
+                <figure></figure>
+                <div>
+                    <h2>Huge Savings</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus cupiditate
+                        necessitatibus ab dolorum eligendi.</p>
+                </div>
+            </article>
+            <article>
+                <figure></figure>
+                <div>
+                    <h2>Discover New Culture</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ducimus cupiditate
+                        necessitatibus ab dolorum eligendi.</p>
+                </div>
+            </article>
+        </section>
+        <section id="current-users">
+            <header>
+                <h4>Total Avacations Booked This Month</h4>
+                <h3 id="total-users">106,111</h3>
+            </header>
+        </section>
+        <section id="locations">
+            <h2>Already a member?</h2>
+            <a href="" id="header-link">Book a vacation</a>
+            <input type="text" name="search" placeholder="Search Available Locations" autocomplete="off">
+            <h4>Find Location By Country</h4>
+            <ul>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">Morocco</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">United States</a></li>
+                <li><a href="#">Thailand</a></li>
+                <li><a href="#">Scotland</a></li>
+                <li><a href="#">Greece</a></li>
+                <li><a href="#">Sweden</a></li>
+                <li><a href="#">Brazil</a></li>
+                <li><a href="#">Denmark/a></li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <div id="testimonials-bg"></div>
+            <article>
+                <header>
+                    <h2>Our Stisfied Users</h2>
+                    <h5>Rated <span>9.6/10</span><br>By our verified users</h5>
+                </header>
+                <section id="reviews">
+                    <div class="review">
+                        <div class="reviewer-details">
+                            <figure></figure>
+                            <div class="details">
+
+                                <div class="name">Gragr anderson</div>
+                                <div class="from">Avid Forest Travel User</div>
+
+                            </div>
+
+                        </div>
+                        <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam
+                            id nulla unde laboriosam hic cupiditate?</p>
+                    </div>
+                    <div class="review">
+                        <div class="reviewer-details">
+                            <figure></figure>
+                            <div class="details">
+
+                                <div class="name">Gragr anderson</div>
+                                <div class="from">Avid Forest Travel User</div>
+
+                            </div>
+
+                        </div>
+                        <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam
+                            id nulla unde laboriosam hic cupiditate?</p>
+                    </div>
+                    <div class="review">
+                        <div class="reviewer-details">
+                            <figure></figure>
+                            <div class="details">
+
+                                <div class="name">Gragr anderson</div>
+                                <div class="from">Avid Forest Travel User</div>
+
+                            </div>
+
+                        </div>
+                        <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, veniam
+                            id nulla unde laboriosam hic cupiditate?</p>
+                    </div>
+
+                </section>
+                <a href="">Leave a Review</a>
+                <a href="">See all coustomer Reviews</a>
+            </article>
+        </section>
+        <section id="weekly-deal">
+            <h2>Deal of the week</h2>
+            <article id="deal">
+                <div id="deal-details">
+                    <h3>Athes,Greese</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui doloribus eligendi tenetur rerum
+                        inventore. Necessitatibus non labore eos? Dolorum hic in mollitia excepturi maxime saepe
+                        temporibus inventore numquam facilis odio.</p>
+                    <a href="">Claim your vacation Now</a>
+                </div>
+                <figure></figure>
+            </article>
+        </section>
+        <footer id="footer">
+            <h5>Travel forest</h5>
+            <h6>Find us on social media</h6>
+            <div id="social-icons">
+                <img src="./images/social/facebook.png" alt="A facbook icon">
+                <img src="./images/social/instagram.png" alt="A instagram icon">
+                <img src="./images/social/pinterest.png" alt="A pinterest icon">
+                <img src="./images/social/twitter.png" alt="A twitter icon">
+                <img src="./images/social/youtube.png" alt="A youtube icon">
+            </div>
+         <hr>
+         <h6>Copyright 2021 - all rights are reserved</h6>
+        </footer>
+    </section>
+
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+#current-users {
+  width: 60%;
+  color: white;
+  margin: px-to-rem(192px) auto;
+  padding: px-to-rem(22px) 0;
+  border-top: 1px solid; }

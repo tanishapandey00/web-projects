@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,800&display=swap" rel="stylesheet">
+    <title>Web strore API chalange</title>
+    <style media="screen">
+        body,
+        input {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body {
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+
+        section {
+            padding-bottom: 16vh;
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 56px;
+        }
+
+        h2 {
+            margin: 32px 0 6px;
+        }
+
+        input {
+            display: block;
+            margin: 0 auto;
+        }
+
+        input[type="url"] {
+            color: inherit;
+            font-size: 18px;
+            width: 400px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid;
+            text-align: center;
+            margin-top: 10px;
+
+        }
+
+        ::placeholder {
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body class="flex" onload="onLoad();">
+
+    <section id="section" class="flex">
+        <h1>Web Storage API Challenge</h1>
+
+        <h2>Choose Background Image</h2>
+        <input id="url" type="url" name="image" placeholder="URL" oninput="setBackground();">
+
+        <h2>Set Overlay Color</h2>
+        <input id="bg-color" type="color" name="bg-color" value="#ffffff" oninput="setOverlayColor();">
+
+        <h2>Set Overlay Transparency</h2>
+        <input id="opacity" type="range" step=".01" min="0" max="1" oninput="setOverlayColor();">
+
+        <h2>Set Text Color</h2>
+        <input id="text-color" type="color" name="text-color" oninput="setTextColor();">
+    </section>
+
+</body>
+<script type="text/javascript">
+    var localStorage = ('localStorage' in window);
+    function setData(key, value) {
+        if (localStorage) {
+            localStorage.setItem(key, value);
+        }
+    }
+    function loadData(key) {
+        if (key in localStorage) {
+            return localStorage.getItem(key);
+        }
+    }
+    function setBackground() {
+        let file = document.getElementById("url").value;
+        setData("url", file);
+        document.body.style.backgroundImage = "url(" + file + ")";
+    }
+    function setOverlayColor() {
+        let color = document.getElementById("bg-color").value;
+        let RGBify = hexToRGB(color);
+        let opacity = document.getElementById("opacity").value;
+        let fullColor = `rgba(${RGBify.r},${RGBify.g},${RGBify.b},${opacity})`;
+        setData("bg-color", color);
+        setData("opacity", opacity);
+        document.getElementById("section").style.backgroundColor = fullColor;
+    }
+    function settextColor() {
+        let tcolor = document.getElementById("text-color").value;
+
+        setData("text-color", tcolor);
+        document.body.style.color = tcolor;
+    }
+    function onLoad() {
+        loadData("imageURL") && (document.getElementById("url").value = loadData("imageURL"));
+        loadData("bg-color") && (document.getElementById("bg-color").value = loadData("bg-color"));
+        loadData("opacity") && (document.getElementById("opacity").value = loadData("opacity"));
+        loadData("text-color") && (document.getElementById("text-color").value = loadData("text-color"));
+        setBackground();
+        setOverlayColor();
+        settextColor();
+
+    }
+    function deleteAll() { 
+        localStorage.clear();
+    }
+    function hexToRGB(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+</script>
+
+</html>
