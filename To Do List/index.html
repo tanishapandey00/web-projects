@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="menu-section">
+        <input type="checkbox" id="menu">
+        <aside id="menu-controller">
+            <label for="menu" class="icon"></label>
+        </aside>
+        <div id="menu-dimmed-bg"></div>
+        <div id="menu-content">
+            <header>
+                <h4 class="bold">Get it Done</h4>
+                <label for="menu" class="icon"></label>
+            </header>
+            <section id="theme">
+                <h5 class="bold">Theme:
+                    <span id="light" class="current-theme">Light</span>
+                    <span id="dark">Dark</span>
+                </h5>
+            </section>
+            <section id="completed-tasks">
+                <h5 class="bold">Recently Completed Tasks</h5>
+                <ul id="completed-task-list">
+                    <li class="invert">Walk Dog: <span>Sept 12th</span> </li>
+                    <li class="invert">Record Vedio: <span>Sept 12th</span> </li>
+                    <li class="invert">Feed Cats: <span>Sept 12th</span> </li>
+                    <li class="invert">Do Stuff: <span>Sept 12th</span> </li>
+                </ul>
+            </section>
+            <h5 id="reset" class="bold">Reset All</h5>
+        </div>
+    </div>
+    <div id="main"></div>
+    <script type="text/javascript" src="./js/date_format.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/storage.js"></script>
+    <script type="text/javascript" src="./js/tasks.js"></script>
+</body>
+
+</html>
