@@ -63,6 +63,7 @@
       transition: all 0.2s; }
       #menu-content header #theme h5 {
         margin-top: 7rem;
+        font-size: var(--menu-font-size);
         text-transform: uppercase;
         line-height: 10%; }
         #menu-content header #theme h5 span {
