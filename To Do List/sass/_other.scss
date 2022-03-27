@@ -20,6 +20,7 @@ body{
     transform-origin:center;
     transition-timing-function:cubic-bezier(0.9,1.65,0.42,0.61);
     &:hover{transform:rotate(108deg);}
+    
 }
 header,h1,h2,h3,h4,h5,h6,input{
     font-weight:inherit;
@@ -54,7 +55,6 @@ body{
     cursor:default;
     display:none;
     min-height:100vh;
-    display:flex;
     @media(max-width:1100px){
         flex-direction:column;
     }
