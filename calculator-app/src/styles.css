@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(35deg,
+            hsl(277deg 100% 35%) 0%,
+            hsl(280deg 94% 37%) 18%,
+            hsl(283deg 87% 39%) 28%,
+            hsl(286deg 81% 41%) 36%,
+            hsl(290deg 75% 43%) 42%,
+            hsl(293deg 70% 45%) 48%,
+            hsl(296deg 66% 48%) 55%,
+            hsl(299deg 62% 50%) 61%,
+            hsl(302deg 67% 53%) 67%,
+            hsl(305deg 75% 57%) 75%,
+            hsl(308deg 85% 61%) 84%,
+            hsl(311deg 97% 65%) 100%);
+}
+.calculator-grid {
+    /* height:80vh; */
+    display: grid;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.calculator-grid>button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+.calculator-grid>button:hover,
+.calculator-grid>button:focus{
+    background-color: rgba(255, 255, 255, .9);
+
+}
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1/-1;
+    background-color: rgba(0, 0, 0, .45);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: .75rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+}
